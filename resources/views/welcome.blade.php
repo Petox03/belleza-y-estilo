@@ -1,3 +1,6 @@
 <x-layouts.layout>
-    a
+    @livewire('alertnotify')
+    @livewire('index.hero')
+    @livewire('index.about')
+    @livewire('index.services')
 </x-layouts.layout>

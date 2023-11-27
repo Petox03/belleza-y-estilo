@@ -23,4 +23,6 @@ class Appointment extends Model
     public function status(){
         return $this->hasMany(Status::class);
     }
+
+    public $timestamps = false;
 }

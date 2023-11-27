@@ -44,6 +44,6 @@ class DatabaseSeeder extends Seeder
         \App\Models\User::factory()->create(['name' => 'Alberto Sosa' ,
             'email' => 'petox.somart@outlook.com', 
             'password' => '$2y$12$Y911ZO5Gfa5BC8jujB6CjeTzuP.AAGvfiDaXhFjh/qaQE1lRCR3Nq',
-            'id_role' => 1]);
+            'role_id' => 1]);
     }
 }

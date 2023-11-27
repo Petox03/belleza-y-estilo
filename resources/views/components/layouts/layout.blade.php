@@ -17,7 +17,7 @@
 <body class="antialiased">
 
     <header>
-        @livewire('navbar')
+        @livewire('navbar.navbar')
     </header>
 
     <main class="relative">
@@ -25,7 +25,7 @@
     </main>
 
     <footer class="my-12">
-        @livewire('footer')
+        @livewire('footer.footer')
     </footer>
 
     @livewireScripts

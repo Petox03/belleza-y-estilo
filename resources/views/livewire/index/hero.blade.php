@@ -8,7 +8,7 @@
             <br class="hidden md:block">con estilo.
         </p>
 
-        @livewire('index.appointmentform')
+        @livewire('appointment.form')
 
     </div>
 </div>
